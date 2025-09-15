@@ -8,6 +8,7 @@ import Bookings from "./pages/Bookings";
 import Cabins from "./pages/Cabins";
 import Users from "./pages/Users";
 import Account from "./pages/Account";
+import Settings from "./pages/Settings";
 import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
 import AppLayout from "./ui/AppLayout";
@@ -37,6 +38,7 @@ function App() {
             <Route path="cabins" element={<Cabins />} />
             <Route path="users" element={<Users />} />
             <Route path="account" element={<Account />} />
+            <Route path="settings" element={<Settings />} />
           </Route>
           <Route path="login" element={<Login />} />
           <Route path="*" element={<PageNotFound />} />
